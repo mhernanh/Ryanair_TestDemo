@@ -7,7 +7,7 @@ Requirements:
 - ADB tool installed *
 - Android API version downloaded equal to the one installed in the device
 
-* The system path must contains the proper routes from this elements. 
+ *The system path must contains the proper routes from this elements. 
 
 Test environment: 
 
