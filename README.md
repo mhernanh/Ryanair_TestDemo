@@ -3,8 +3,11 @@ Repository created for the techinical test for Ryanair job posisition.
 
 Requirements: 
 
-- ADB tool installed
+- JRE installed. *
+- ADB tool installed *
 - Android API version downloaded equal to the one installed in the device
+
+* The system path must contains the proper routes from this elements. 
 
 Test environment: 
 
