@@ -1,7 +1,8 @@
 # Ryanair_TestDemo
-Repository created for the techinical test for Ryanair job posisition. 
+Repository created for the technical test for Ryanair job posisition. 
 
-~~~~~~~~~~~~~~~~~~
+///////////////////
+
 REQUIREMENTS: 
 
 - JRE installed. *
@@ -10,7 +11,8 @@ REQUIREMENTS:
 
  *The system path must contains the proper routes from this elements. 
 
-~~~~~~~~~~~~~~~~~~
+///////////////////
+
 TEST ENVIRONMENT: 
 
 - Eclipse IDE (Oxygen 4.7.1.a) + TestNG plugin (6.13.1) 
@@ -29,7 +31,8 @@ That file contains the environment details.
 - "port": port configured on Appium. 
 
 
-~~~~~~~~~~~~~~~~~~
+///////////////////
+
 TEST DETAILS: 
 
 This test is created in order to check the message when a wrong credit card is introduced during the payment. The steps done during the test are: 
@@ -46,10 +49,8 @@ I have found several difficulties during the test. The most relevant was that th
 Other difficult was that, after certain day, the process is not as the day after and some options or fields changes, making disfunctional the test. 
 The great majority of the elements on the screen are used by its XPATH. This makes less robust the execution. 
 
-~~~~~~~~~~~~~~~~~~
+///////////////////
 
 I have also send to your HR colleagues a video captured during the execution to show the steps and the result. 
-
-~~~~~~~~
 
 For any doubt, please contact with me on "m.hernan89@hotmail.com" 
