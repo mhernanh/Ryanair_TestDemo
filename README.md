@@ -14,6 +14,7 @@ Test environment:
 - Eclipse IDE (Oxygen 4.7.1.a) + TestNG plugin (6.13.1) 
 - Appium v1.7.2
 - Moto G5 Plus (Android Oreo 8.1.0)
+- Ryanair App from Play Store
 
 This test has built on Java with the using of Maven for the dependencies. In order to execute the test is necessary to run the "testng_MotoG5Plus_demo.xml" file as "TestNG". 
 
