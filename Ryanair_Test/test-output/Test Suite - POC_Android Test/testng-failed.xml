@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Test Suite - POC_Android Test]">
+  <test name="Test over Honor 7X(failed)">
+    <parameter name="port" value="5000"/>
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="ip" value="127.0.0.1"/>
+    <parameter name="deviceModel" value="Honor 7X"/>
+    <parameter name="udid" value="3RP4C17C04000811"/>
+    <parameter name="platformName" value="Android"/>
+    <classes>
+      <class name="demo.login_error">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- demo.login_error -->
+    </classes>
+  </test> <!-- Test over Honor 7X(failed) -->
+</suite> <!-- Failed suite [Test Suite - POC_Android Test] -->

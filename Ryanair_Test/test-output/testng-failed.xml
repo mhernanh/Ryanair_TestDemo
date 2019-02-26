@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Test Suite - Ryanair_Android Test]">
+  <test name="Test over Moto G5 Plus(failed)">
+    <parameter name="port" value="5000"/>
+    <parameter name="platformVersion" value="8.1.0"/>
+    <parameter name="ip" value="127.0.0.1"/>
+    <parameter name="deviceModel" value="XT1685"/>
+    <parameter name="udid" value="ZY2243K7H4"/>
+    <parameter name="platformName" value="Android"/>
+    <classes>
+      <class name="demo.Ryanair_Demo">
+        <methods>
+          <include name="afterTest"/>
+          <include name="launchApplication"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- demo.Ryanair_Demo -->
+    </classes>
+  </test> <!-- Test over Moto G5 Plus(failed) -->
+</suite> <!-- Failed suite [Test Suite - Ryanair_Android Test] -->

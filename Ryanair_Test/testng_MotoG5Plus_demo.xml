@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+ <suite name="Test Suite - Ryanair_Android Test" parallel="tests" thread-count="1" verbose= "1">
+     <test name="Test over Moto G5 Plus">
+      <parameter name="udid" value="ZY2243K7H4"></parameter>
+      <parameter name="deviceModel" value="XT1685"></parameter>
+      <parameter name="platformVersion" value="8.1.0"></parameter>
+      <parameter name="platformName" value="Android"></parameter>
+      <parameter name="ip" value="127.0.0.1"></parameter>
+      <parameter name="port" value="5000"></parameter> 
+      <classes>
+	      <class name="demo.Ryanair_Demo" />
+	 </classes>
+    </test>
+</suite>
